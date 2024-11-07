@@ -18,7 +18,7 @@ li{
 }
 
 body{
-    background-color: #373d54;
+    background-color: #0f131b;
     overflow-x: hidden;
 }
 
@@ -27,7 +27,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(51, 66, 93, 0.9);
+    background-color: rgba(14, 16, 21, 0.9);
     z-index: 99;
 }
 
@@ -229,7 +229,7 @@ nav{
 main{
     top: 0;
     left: 0;
-    background-color: #222d42;
+    background-color: #1c202b;
 }
 
 .container{
@@ -284,7 +284,7 @@ footer{
     margin: 0;
     text-align: center;
     color: #fefefe;
-    background-color: #171e2b;
+    background-color: #0f131b;
 }
 
 footer div{
