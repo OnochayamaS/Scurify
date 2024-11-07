@@ -18,7 +18,7 @@ li{
 }
 
 body{
-    background-color: #373d54;
+    background-color: #1c202b;
     overflow-x: hidden;
 }
 
@@ -27,7 +27,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(51, 66, 93, 0.9);
+    background-color: rgba(14, 16, 21, 0.9);
     z-index: 99;
 }
 
@@ -389,13 +389,13 @@ main{
     padding: 0.5rem 0;
     width: 250px;
     text-align: center;
-    border-top: 7px solid #ffce8a;
-    border-bottom: 7px solid #e0a553;
-    background-color: #fbb85a;
+    border-top: 7px solid #93dcfc;
+    border-bottom: 7px solid #6698ad;
+    background-color: #83c2de;
 }
 
 .how_to_play_text div:hover{
-    background-color: #f1b056;
+    background-color: #73abc4;
 }
 
 .how_to_play_text a{
@@ -557,7 +557,7 @@ main{
     justify-content: center;
     padding: 2rem 0;
     color: #fefefe;
-    background-color: #222d42;
+    background-color: #161922;
 }
 
 .technology_subcontainer{
@@ -634,7 +634,7 @@ footer{
     margin: 0;
     text-align: center;
     color: #fefefe;
-    background-color: #171e2b;
+    background-color: #0f131b;
 }
 
 footer div{
