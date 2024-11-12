@@ -23,12 +23,19 @@
         <div class="container">
             <div>
                 <h2 class="header">COMMANDS & DETECTS</h2>
+
                 <h2 class="subheader">/identification</h2>
                 <p class="info">/identification helps with user verification by requiring a name and age, such as /identification David Laid 21. The bot will confirm the successful verification and assign a role based on the server's settings.</p>
                 <p class="info">Using the /identification command not only confirms the user’s identity but also provides an automated way to assign roles based on preset configurations, ensuring a smoother onboarding process and improved server organization.</p>
+                <p class="info">The bot will not be able to use the /identification command if you haven't set the Role to be assigned after verification. Use the /setverifyrole command and select the Role you want users to receive after verification. Once set, the /identification command will be ready to work.</p>
+                
+                <h2 class="subheader">/setwelcomechannel</h2>
+                <p class="info">Go to the channel you want to set as the welcome channel and use this command: /setwelcomechannel. When someone joins, the bot will greet them, and when someone leaves, the bot will send a farewell message.</p>
+
                 <h2 class="subheader">Detects suspicious URLs</h2>
                 <p class="info">Scurify detects suspicious links and alerts server moderators when such a link is posted. The bot notifies the moderators, who can choose to approve or reject the link. If they deem it safe, they click a checkmark emoji; if not, they select an 'X' emoji. Based on this decision, the bot sends a response to the user who shared the link. If approved, the link will be made visible to everyone on the server."</p>
                 <p class="info">This feature ensures that only safe and verified links are shared within the server, offering an added layer of protection against phishing and harmful content. Moderators have full control over link approval, enhancing security without limiting communication.</p>
+                <p class="info">To allow the bot to detect suspicious links, you need to set one of your channels as a moderator channel, which will be used to monitor these links. Otherwise, the bot will not detect suspicious links. Go to the channel you want to designate as the moderator channel and use the command /setmoderatorchannel. This will make the channel the place where the bot sends flagged links for moderators to review.</p>
             </div>
         </div>
     </main>
